@@ -1,0 +1,33 @@
+---
+title: "ReadMe"
+author: "Leigh E Meeker"
+date: "January 4, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Getting and Cleaning Data Course Project ReadMe
+
+The file run_analysis.R does the following:
+
+1. Loads the activity labels, features (variables) into R and converts the names to character fields.
+2. Loads the activity values, subject values, and measured data into R and combines into one dataset for test and train.
+3. Combines the test and train datasets into one combined dataset.
+4. Using regular expressions, filters the features to only ones that are a mean/std and cleans up the names by removing parenthesis.
+5. Subset the combined dataset to only features in step 4 and add the column names to the dataset.
+6. Using a factor, give the activity values meaningful, text names.
+7. Create a second dataset with the mean of each variable for each subject and activity.
+
+
+
+
+
+
+
+
+
+
+
